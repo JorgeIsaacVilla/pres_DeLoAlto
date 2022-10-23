@@ -6,28 +6,29 @@ body{
     justify-content: center;
     justify-items: center;
     display: flex;
-    /*background-image: url(./img/stars-1655504_960_720.webp);*/
+    
 }
 
 .rombo{
     margin-top: 300px;
     background: rgba(41, 40, 40, 0.014);
-    width: 425px;
-    height: 425px;
-    display: flex;
+    width: 45vh;
+    height: 45vh;
     justify-content: center;
+    display: flex;
     align-items: center;
     transform: rotate(45deg) skewx(10deg) skewY(10deg);
     overflow: hidden;
     transition: 5s;
-
 }
 .img{
 transform: rotate(-45deg);
+justify-content: center;
+display: flex;
 }
 .rombo:hover{
-    width: 425px;
-    height: 425px;
+    width: 45vh;
+    height: 45vh;
     background: white;
     box-shadow: 0 0 10px  white, 0 0 40px  white, 0 0 80px  white;
    
