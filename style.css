@@ -5,12 +5,10 @@ body{
     align-items: center;
     justify-content: center;
     justify-items: center;
-    display: flex;
-    
+    display: flex;   
 }
-
 .rombo{
-    margin-top: 300px;
+    margin-top: 30vh;
     background: rgba(41, 40, 40, 0.014);
     width: 45vh;
     height: 45vh;
@@ -31,5 +29,4 @@ display: flex;
     height: 45vh;
     background: white;
     box-shadow: 0 0 10px  white, 0 0 40px  white, 0 0 80px  white;
-   
 }
